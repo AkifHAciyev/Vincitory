@@ -8,8 +8,12 @@ const Registration = () => {
 				<img src={bgImg} alt="loginImg" />
 			</div>
 			<div className={styled.right}>
-				<h1 className={styled.title}>Hesaba daxil ol</h1>
+				<h1 className={styled.title}>Qeydiyyat</h1>
 				<form>
+					<div className={styled.workBox}>
+						<label className={styled.workTitle}>Ad və soyadınız</label>
+						<input className={styled.workInput} type="text" placeholder="Ad və soyadınızı  edin" />
+					</div>
 					<div className={styled.workBox}>
 						<label className={styled.workTitle}>E-mail</label>
 						<input className={styled.workInput} type="text" placeholder="E-mailinizi daxil edin" />
