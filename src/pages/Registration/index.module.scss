@@ -1,6 +1,9 @@
 .wrapper {
 	display: flex;
 	margin-top: 80px;
+	.telfon{
+		position: absolute;
+	}
 }
 
 .left {
@@ -17,7 +20,6 @@
 	align-items: center;
 	justify-content: center;
 }
-
 .title {
 	font-weight: 600;
 	font-size: 48px;
@@ -56,4 +58,5 @@
 	height: 60px;
 	border: none;
 	margin-top: 48px;
+	color: #fff;
 }

@@ -1,11 +1,14 @@
 import styled from './index.module.scss';
 import bgImg from '../../assets/images/loginImg.svg';
+import telfon from '../../assets/images/telfon.svg';
+
 
 const Registration = () => {
 	return (
 		<div className={styled.wrapper}>
 			<div className={styled.left}>
 				<img src={bgImg} alt="loginImg" />
+				<img className={styled.telfon} src={telfon} alt="loginImg" />
 			</div>
 			<div className={styled.right}>
 				<h1 className={styled.title}>Qeydiyyat</h1>
