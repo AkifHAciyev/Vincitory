@@ -11,6 +11,18 @@
     z-index: 5;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-image: url('../../assets/images/register-back.svg');
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
 
     .logo {
         width: 83px;
@@ -20,12 +32,14 @@
     .navigation {
         display: flex;
         gap: 0 96px;
-        &>li>a{
+
+        &>li>a {
             all: unset;
             font-style: normal;
             font-weight: 500;
             font-size: 15px;
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
                 text-decoration: underline;
                 transition: 0.3s;
@@ -36,17 +50,19 @@
     .button {
         all: unset;
         padding: 13px 24px;
-        border: 1px solid #FFFFFF;
+        border: 1px solid #ffffff;
         border-radius: 8px;
-        &:hover{
+
+        &:hover {
             background-color: white;
             color: black;
             transition: 0.3s;
             cursor: pointer;
         }
-        &:active{
+
+        &:active {
             color: white;
-            background:transparent;
+            background: transparent;
             transition: 0.3s;
             cursor: pointer;
         }
