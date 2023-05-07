@@ -1,0 +1,149 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+	margin-top: 180px;
+}
+
+.form {
+	max-width: 563px;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 42px;
+	margin-bottom: 24px;
+}
+.subTitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	max-width: 466px;
+	width: 100%;
+	color: #697586;
+}
+
+.info {
+	display: flex;
+	margin-bottom: 32px;
+}
+
+.info div {
+	display: flex;
+	flex-direction: column;
+}
+
+.info div:last-child {
+	margin-left: 16px;
+}
+
+.workTitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #121926;
+	margin-bottom: 12px;
+}
+
+.infoInput {
+	background: #ffffff;
+	border: 1px solid #cdd5df;
+	border-radius: 12px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #697586;
+	padding: 16px 18px;
+	min-width: 273px;
+	width: 100%;
+}
+
+.infoInput:focus {
+	box-shadow: 0 0 0 2px #155eef;
+	outline: none;
+}
+
+.homeChoice {
+	margin-bottom: 32px;
+}
+
+.homeChoiceTitle {
+	font-weight: 400;
+	font-size: 16px;
+	color: #697586;
+	margin-bottom: 20px;
+}
+
+.homeChoiceBtn {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #697586;
+	border: 1px solid #cdd5df;
+	border-radius: 12px;
+	padding: 18px;
+	background-color: #fff;
+	min-width: 177px;
+}
+
+.homeChoiceBtn:not(:first-child) {
+	margin-left: 15px;
+}
+
+.homeChoiceBtn:hover {
+	border: 1px solid #155eef;
+}
+
+.work {
+}
+
+.workBox {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 32px;
+}
+
+.workInput {
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #cdd5df;
+	border-radius: 12px;
+	height: 60px;
+	padding-left: 18px;
+}
+
+.select {
+	border: 1px solid #cdd5df !important;
+	border-radius: 12px !important;
+	margin-top: 12px !important;
+}
+
+.rangeBox {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.rangeMiuBox {
+	margin-top: 20px;
+	display: flex;
+	margin: 7px;
+}
+.range {
+	margin-top: 32px;
+}
+
+.formBtnSubmit {
+	background: #155eef;
+	border-radius: 12px;
+	border: none;
+	height: 60px;
+	width: 369px;
+	font-weight: 600;
+	font-size: 17px;
+	color: #ffffff;
+	margin-top: 64px;
+}
