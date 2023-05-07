@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'TT Hoves';
+	src: url(./assets/fonts/TTHoves-Medium.ttf) format('opentype');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button {
+	cursor: pointer;
+}
