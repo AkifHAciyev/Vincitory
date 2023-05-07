@@ -1,6 +1,9 @@
 .wrapper {
 	display: flex;
 	margin-top: 80px;
+	.telfon{
+		position: absolute;
+	}
 }
 
 .left {
@@ -10,6 +13,7 @@
 }
 
 .right {
+	width: 100%;
 	margin-left: 96px;
 	display: flex;
 	flex-direction: column;
