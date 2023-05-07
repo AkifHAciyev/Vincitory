@@ -1,6 +1,7 @@
 import styled from './index.module.scss';
 import bgImg from '../../assets/images/loginImg.svg';
 import telfon from '../../assets/images/telfon.svg';
+import { NavLink } from 'react-router-dom';
 
 const Login = () => {
 	return (
@@ -24,7 +25,7 @@ const Login = () => {
 						<input type="checkbox" />
 						<label className={styled.checkboxLable}>Yadda saxla</label>
 					</div>
-					<button className={styled.workBoxBtn}>Daxil ol</button>
+					<button className={styled.workBoxBtn}><NavLink to='/'> Daxil ol</NavLink> </button>
 				</form>
 			</div>
 		</div>
