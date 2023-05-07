@@ -1,0 +1,57 @@
+.container {
+    height: 350px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 100px;
+    padding: 0 97px;
+    margin: auto auto 90px;
+
+    &>div {
+        width: 261px;
+        height: 172px;
+    }
+
+    .heading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #12141D;
+    }
+
+    .content {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #797979;
+        margin: 18px;
+    }
+
+    .numbers {
+        color: white;
+        background-color: #2162F0;
+        text-align: center;
+        padding: 15px;
+        margin: 25px auto;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+}
+
+.h2 {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 104px;
+}
