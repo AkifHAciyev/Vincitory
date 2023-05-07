@@ -1,5 +1,7 @@
+import PageRoutes from './Routes';
+
 function App() {
-	return <></>;
+	return <PageRoutes />;
 }
 
 export default App;
